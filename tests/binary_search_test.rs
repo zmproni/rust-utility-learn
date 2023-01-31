@@ -53,7 +53,6 @@ mod tests {
         assert_eq!(None, search(&arr, &elem));
     }
 
-
     #[test]
     fn test_binary_search_not_present_smaller() {
         let arr: [i32; 10] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -61,13 +60,10 @@ mod tests {
         assert_eq!(None, search(&arr, &elem));
     }
 
-
     #[test]
     fn test_binary_search_not_present_between() {
         let arr: [i32; 9] = [1, 2, 3, 4, 6, 7, 8, 9, 10];
         let elem = 5;
         assert_eq!(None, search(&arr, &elem));
     }
-
 }
-
