@@ -4,3 +4,6 @@ pub mod array {
         pub mod linear_search;
     }
 }
+pub mod data_structures {
+    pub mod linked_list;
+}
