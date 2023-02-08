@@ -5,5 +5,6 @@ pub mod array {
     }
 }
 pub mod data_structures {
-    pub mod linked_list;
+    pub mod linked_stack;
+    pub mod better_linked_stack;
 }

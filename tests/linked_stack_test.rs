@@ -1,4 +1,4 @@
-use utility_learn::data_structures::linked_list::List;
+use utility_learn::data_structures::linked_stack::List;
 
 #[cfg(test)]
 mod tests {
