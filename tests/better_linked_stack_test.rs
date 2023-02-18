@@ -6,7 +6,8 @@ mod tests {
 
     #[test]
     fn peek_empty() {
-        let mut list = List::<i32>::new();
+        let list = List::<i32>::new();
+
         assert_eq!(list.peek(), Option::None);
     }
     
